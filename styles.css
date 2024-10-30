@@ -1,0 +1,153 @@
+/* Table */
+#WPLogs_table {
+	width: 99%;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#WPLogs_table thead tr th {
+	color: #fff;
+	background: #2271b1;
+	padding: 8px 10px;
+	position: relative;
+}
+
+#WPLogs_table thead tr th:hover {
+	cursor: pointer;
+}
+
+#WPLogs_table thead tr th:first-child {
+	width: 3%;
+}
+
+#WPLogs_table thead tr th:nth-child(2) {
+	width: 6%;
+}
+
+#WPLogs_table thead tr th:nth-child(3) {
+	width: 10%;
+}
+
+#WPLogs_table thead tr th:nth-child(4) {
+	width: 55%;
+}
+
+#WPLogs_table thead tr th:nth-child(5) {
+	width: 10%;
+}
+
+#WPLogs_table thead tr th:nth-child(6) {
+	width: 10%;
+}
+
+#WPLogs_table thead tr th:nth-child(7) {
+	width: 4%;
+}
+
+#WPLogs_table thead tr th:nth-child(8) {
+	width: 4%;
+}
+
+.WPLogs_noDatas {
+	height: 500px;
+	width: 95%;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.WPLogs_noDatas .WPLogs_info {
+	font-size: 1.5rem;
+	color: #2271b1;
+	font-weight: bold;
+}
+
+/* Refresh button */
+#WPLogs_refresh {
+	height: 30px;
+	width: 30px;
+	border-radius: 0;
+	border: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	margin-left: 0 !important;
+}
+
+/* Notice info */
+#WPLogs_free_infos {
+	width: 40%;
+	margin: 5px 0;
+	color: #72aee6;
+	font-weight: bold;
+}
+
+/* filter inputs */
+#WPLogs_filter {
+	margin: 10px auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#WPLogs_filter_searchBar {
+	margin: 5px;
+	padding: 0 10px !important;
+	width: 30%;
+	border-radius: 0;
+}
+
+#WPLogs_filter_select {
+	margin: 5px;
+	border-radius: 0;
+}
+
+/* delete box */
+.WPLogs_deleteAll_box {
+	width: 25%;
+	margin: 20px auto;
+}
+
+.WPLogs_button {
+	margin: 0 5px !important;
+}
+
+.WPLogs_warning {
+	color: #2271b1;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+/* columns options */
+#WPLogs_ID {
+	position: relative;
+}
+
+.WPLogs_column_options {
+	position: relative;
+	width: 200px;
+	margin-top: 0 !important;
+	text-align: left;
+}
+
+.submitdelete {
+	color: #b32d2e !important;
+}
+
+/* delete one row */
+#WPLogs_deleteOneBlock {
+	padding: 0 15px;
+}
+
+/* Back Button */
+#WPlogs_back_button {
+	border-radius: 0;
+	margin: 10px 0 !important;
+}
